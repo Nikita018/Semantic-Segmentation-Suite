@@ -21,7 +21,7 @@ from models.InceptionDeepNet import build_inception_deepNet
 
 SUPPORTED_MODELS = ["FC-DenseNet56", "FC-DenseNet67", "FC-DenseNet103", "Encoder-Decoder", "Encoder-Decoder-Skip", "RefineNet",
     "FRRN-A", "FRRN-B", "MobileUNet", "MobileUNet-Skip", "PSPNet", "GCN", "DeepLabV3", "DeepLabV3_plus", "AdapNet", 
-    "DenseASPP", "DDSC", "BiSeNet","inception_deepNet, "custom"]
+    "DenseASPP", "DDSC", "BiSeNet","inception_deepNet", "custom"]
 
 SUPPORTED_FRONTENDS = ["ResNet50", "ResNet101", "ResNet152", "MobileNetV2", "InceptionV4"]
 
